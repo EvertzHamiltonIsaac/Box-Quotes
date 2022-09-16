@@ -1,0 +1,57 @@
+
+
+:root{
+    --Color-card: antiquewhite;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.BoxCard{
+    padding: 30px;
+    width: 750px;
+    height: 200px;
+
+    background-color: var(--Color-card);
+    border-radius: 1em;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.BoxCard p{
+}
+
+.BoxCard span{
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+
+    background-color: antiquewhite;
+    color: white;
+
+    align-self: flex-end;
+    cursor: pointer;
+    border-radius: 50%;
+
+    border: hidden;
+    transition: border 0.5s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+    transition: border 1s, scale 1s;
+    border: 1px solid black;
+}
