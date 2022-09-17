@@ -3,6 +3,7 @@ import './App.css'
 import QuoteBox from './components/QuoteBox'
 import quotes from './json/quotes.json'
 import colors from './js/colors'
+import Content from './components/Content'
 
 
 function App() {
@@ -24,9 +25,7 @@ function App() {
 
   return (
     <div style={{backgroundColor: r_color}} className="App">
-
       <QuoteBox quote_prop={r_quote} color_prop={r_color} all_again={getAllramdom}/>
-
     </div>
   )
 }

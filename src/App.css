@@ -55,3 +55,16 @@
     transition: border 1s, scale 1s;
     border: 1px solid black;
 }
+
+.Content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Content p{
+    margin-bottom: 10px;
+}
+
+.Content span{
+    align-items: flex-end;
+}
